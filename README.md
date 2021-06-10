@@ -17,6 +17,23 @@ This extension pack packages some of the most popular (and some of my favorite) 
   - macOS
     - `⌘ + .` : Quick Fix
 
+  > I use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to validate my Markdown files. But some of the rules might break your content by accident if you enabled **Editor: Format On Save** (`editor.formatOnSave`) setting. Below is my `.markdownlint.json` file which disabled some rules that I don't need. Especially the [MD044 - Proper names should have the correct capitalization](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md044---proper-names-should-have-the-correct-capitalization) can broken some of the **Terms** in your doc.
+
+  ```json
+  {
+    "MD001": false,
+    "MD012": false,
+    "MD013": false,
+    "MD028": false,
+    "MD034": false,
+    "MD041": false,
+    "MD044": false,
+    "MD029": {
+      "style": "ordered"
+    }
+  }
+  ```
+
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
    Useful Shortcuts:
