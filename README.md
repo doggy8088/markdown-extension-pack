@@ -17,7 +17,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
   - macOS
     - `⌘ + .` : Quick Fix
 
-  > I use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to validate my Markdown files. But some of the rules might break your content by accident if you enabled **Editor: Format On Save** (`editor.formatOnSave`) setting. Below is my `.markdownlint.json` file which disabled some rules that I don't need. Especially the [MD044 - Proper names should have the correct capitalization](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md044---proper-names-should-have-the-correct-capitalization) can broken some of the **Terms** in your doc.
+  > I use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to validate my Markdown files. But some of the rules might break your content by accident if you enabled **Editor: Format On Save** (`editor.formatOnSave`) setting. Below is my `.markdownlint.json` file which disabled some rules that I don't need. Especially the [MD044 - Proper names should have the correct capitalization](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md044---proper-names-should-have-the-correct-capitalization) might broken some of the **Terms** in your doc.
 
   ```json
   {
@@ -39,9 +39,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
    Useful Shortcuts:
 
   - Windows
-    - `Alt + C` : Check/Uncheck task list item
     - `Ctrl + B` : Toggle bold
     - `Ctrl + I` : Toggle italic
+    - `Alt + S` : Toggle strikethrough
+    - `Alt + C` : Check/Uncheck task list item
     - `Ctrl + Shift + ]` : Toggle heading (uplevel)
     - `Ctrl + Shift + [` : Toggle heading (downlevel)
   - macOS
@@ -75,7 +76,60 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
     I'll turn markdown into HTML and put it onto Clipboard. No file will be generated. It is very useful that when I writing posts.
 
-### Some other extensions you may need (Optional) (You need to install the following extensions manually.)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+    You can right-click on any folder in the **EXPLORER** pane and choose **Generate .editorconfig** command.
+
+    ```ini
+    root = true
+
+    [*]
+    indent_style = space
+    indent_size = 4
+    end_of_line = crlf
+    charset = utf-8
+    trim_trailing_whitespace = true
+    insert_final_newline = false
+
+    [*.md]
+    indent_size = 2
+    ```
+
+### Customizable Shortcuts
+
+1. **Insert Snippet** (`editor.action.insertSnippet`)
+
+    `Ctrl + K` : Insert Link on selected text
+
+    > Your can just paste link from clipboard on selected text if you installed [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension which is already included in this extension pack.
+
+2. **Snippets for Markdown** (`editor.action.triggerSuggest`)
+
+    `Ctrl + Space` : Trigger suggest
+
+3. **Markdown: Open Preview** (`markdown.showPreview`)
+
+    I'll remove the built-in `Ctrl + Shift + V` for this command. There is another shortcut registered below:
+
+    `Ctrl + Shift + Alt + P` : Open Preview
+
+4. **Markdown: Open Preview to the side** (`markdown.extension.togglePreview`)
+
+    The default `Ctrl + K V` will not available if your installed [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one). So you have to customize the built-in Keyboard Shortcuts to `Ctrl + Shift + V`.
+
+    `Ctrl + Shift + V` : Open Preview to the side (The 2nd editor)
+
+    > You can hit the same hotkey to close the Preview.
+
+### Extensions NOT Included but might be useful
+
+You need to install the following extensions manually if you need:
+
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+    There is a **Format Document (Forced)** command (`prettier.forceFormatDocument`) that can format your Markdown document by force!
+
+    I'll bind `Ctrl + Alt + Shift + F` hotkey to this command.
 
 - [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)
 
