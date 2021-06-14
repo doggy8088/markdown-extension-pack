@@ -2,6 +2,10 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
+## 0.2.1 - 2021-06-14
+
+* Update repository link.
+
 ## 0.2.0 - 2021-06-11
 
 * Add [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) extension.
