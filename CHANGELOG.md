@@ -2,6 +2,10 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
+## 0.2.2 - 2021-06-15
+
+* Add "Tag" to the extension
+
 ## 0.2.1 - 2021-06-14
 
 * Update repository link.
