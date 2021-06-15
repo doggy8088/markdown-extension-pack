@@ -6,11 +6,11 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-    Markdown linting and style checking for Visual Studio Code. Check [Rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) for more details.
+  Markdown linting and style checking for Visual Studio Code. Check [Rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) for more details.
 
-    When you get rule violations (wavy underlined text) in a doc, it support **Quick Fix**.
+  When you get rule violations (wavy underlined text) in a doc, it support **Quick Fix**.
 
-   Useful Shortcuts:
+  Useful Shortcuts:
 
   - Windows
     - `Ctrl + .` : Quick Fix
@@ -36,7 +36,7 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-   Useful Shortcuts:
+  Useful Shortcuts:
 
   - Windows
     - `Ctrl + B` : Toggle bold
@@ -45,98 +45,112 @@ This extension pack packages some of the most popular (and some of my favorite) 
     - `Alt + C` : Check/Uncheck task list item
     - `Ctrl + Shift + ]` : Toggle heading (uplevel)
     - `Ctrl + Shift + [` : Toggle heading (downlevel)
+    - `Alt + Shift + F` : Format Document with a Table formatter
   - macOS
     - `Alt + C` : Check/Uncheck task list item
     - `Cmd + B` : Toggle bold
     - `Cmd + I` : Toggle italic
     - `Cmd + Shift + ]` : Toggle heading (uplevel)
     - `Cmd + Shift + [` : Toggle heading (downlevel)
-
-- [Markdown Table Prettifier](https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify)
-
-   Useful Shortcuts:
-
-  - `Alt + Shift + F` : **Format Document** can transforms markdown tables to be more readable automatically.
+    - `Alt + Shift + F` : Format Document with a Table formatter
 
 - [Markdown Paste Image](https://marketplace.visualstudio.com/items?itemName=onesdev.vscode-paste-image-plus)
 
-   Useful Shortcuts:
+  Useful Shortcuts:
 
   - `Ctrl + Alt + V` : Simply copy a image to Clipboard then use `Ctrl+Alt+V` to paste into your doc.
 
     > The default image path will save to `res/` folder of current doc.
 
+- [Markdown Image Size](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-image-size)
+
+  Adds `![](IMAGEURL =100x200)` image size syntax support to VS Code's built-in Markdown preview.
+
+  > Azure DevOps's Wiki page support [resize image](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops&WT.mc_id=DT-MVP-4015686#images) syntax.
+
+- [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+
+  Adds [Mermaid](https://mermaid-js.github.io/mermaid/) diagram and flowchart support to VS Code's builtin markdown preview
+
+  It support both `::: mermaid` and ` ```mermaid ` syntax.
+
+  > Azure DevOps's Wiki page [support Mermaid diagram](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-markdown-guidance?view=azure-devops&WT.mc_id=DT-MVP-4015686#add-mermaid-diagrams-to-a-wiki-page) syntax.
+
 - [Excel to Markdown table](https://marketplace.visualstudio.com/items?itemName=csholmq.excel-to-markdown-table)
 
-   Useful Shortcuts:
+  Useful Shortcuts:
 
   - `Shift + Alt + V` : Copy a region of Excel Spreadsheet then use `Shift+Alt+V` to paste into a markdown doc in a table from.
 
 - [Copy Markdown as HTML](https://marketplace.visualstudio.com/items?itemName=jerriepelser.copy-markdown-as-html)
 
-    I'll turn markdown into HTML and put it onto Clipboard. No file will be generated. It is very useful that when I writing posts.
+  I'll turn markdown into HTML and put it onto Clipboard. No file will be generated. It is very useful that when I writing posts.
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-    You can right-click on any folder in the **EXPLORER** pane and choose **Generate .editorconfig** command.
+  You can right-click on any folder in the **EXPLORER** pane and choose **Generate .editorconfig** command.
 
-    ```ini
-    root = true
+  ```ini
+  root = true
 
-    [*]
-    indent_style = space
-    indent_size = 4
-    end_of_line = crlf
-    charset = utf-8
-    trim_trailing_whitespace = true
-    insert_final_newline = false
+  [*]
+  indent_style = space
+  indent_size = 4
+  end_of_line = crlf
+  charset = utf-8
+  trim_trailing_whitespace = true
+  insert_final_newline = false
 
-    [*.md]
-    indent_size = 2
-    ```
+  [*.md]
+  indent_size = 2
+  ```
 
 ### Customizable Shortcuts
 
 1. **Insert Snippet** (`editor.action.insertSnippet`)
 
-    `Ctrl + K` : Insert Link on selected text
+   `Ctrl + K` : Insert Link on selected text
 
-    > Your can just paste link from clipboard on selected text if you installed [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension which is already included in this extension pack.
+   > Your can just paste link from clipboard on selected text if you installed [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension which is already included in this extension pack.
 
 2. **Snippets for Markdown** (`editor.action.triggerSuggest`)
 
-    `Ctrl + Space` : Trigger suggest
+   `Ctrl + Space` : Trigger suggest
 
 3. **Markdown: Open Preview** (`markdown.showPreview`)
 
-    I'll remove the built-in `Ctrl + Shift + V` for this command. There is another shortcut registered below:
+   I'll remove the built-in `Ctrl + Shift + V` for this command. There is another shortcut registered below:
 
-    `Ctrl + Shift + Alt + P` : Open Preview
+   `Ctrl + Shift + Alt + P` : Open Preview
 
 4. **Markdown: Open Preview to the side** (`markdown.extension.togglePreview`)
 
-    The default `Ctrl + K V` will not available if your installed [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one). So you have to customize the built-in Keyboard Shortcuts to `Ctrl + Shift + V`.
+   The default `Ctrl + K V` will not available if your installed [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one). So you have to customize the built-in Keyboard Shortcuts to `Ctrl + Shift + V`.
 
-    `Ctrl + Shift + V` : Open Preview to the side (The 2nd editor)
+   `Ctrl + Shift + V` : Open Preview to the side (The 2nd editor)
 
-    > You can hit the same hotkey to close the Preview.
+   > You can hit the same hotkey to close the Preview.
 
 ### Extensions NOT Included but might be useful
 
 You need to install the following extensions manually if you need:
 
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+
+  Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, [math typesetting](https://shd101wyy.github.io/markdown-preview-enhanced/#/math), [mermaid](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams?id=mermaid), [PlantUML](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams?id=plantuml), [pandoc](https://shd101wyy.github.io/markdown-preview-enhanced/#/pandoc), PDF export, [code chunk](https://shd101wyy.github.io/markdown-preview-enhanced/#/code-chunk), [presentation writer](https://rawgit.com/shd101wyy/markdown-preview-enhanced/master/docs/presentation-intro.html), etc. A lot of its ideas are inspired by [Markdown Preview Plus](https://github.com/atom-community/markdown-preview-plus) and [RStudio Markdown](http://rmarkdown.rstudio.com/).
+
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-    There is a **Format Document (Forced)** command (`prettier.forceFormatDocument`) that can format your Markdown document by force!
+  There is a **Format Document (Forced)** command (`prettier.forceFormatDocument`) that can format your Markdown document by force!
 
-    I'll bind `Ctrl + Alt + Shift + F` hotkey to this command.
+  I'll bind `Ctrl + Alt + Shift + F` hotkey to this command.
 
 - [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)
 
-    If you want to use this extension, please remember disable `math.enabled` option.
+  If you want to use this extension, please remember disable `math.enabled` option.
 
 - [Medium to Markdown](https://marketplace.visualstudio.com/items?itemName=moshfeu.vscode-medium-to-markdown)
 
-    Import your Medium posts into Markdown in your editor.
+  Import your Medium posts into Markdown in your editor.
 
 **Enjoy!**
