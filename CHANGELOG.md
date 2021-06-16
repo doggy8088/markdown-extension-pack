@@ -2,6 +2,11 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
+## 0.4.0 - 2021-06-16
+
+- Add [CSV to Markdown Table Converter](https://marketplace.visualstudio.com/items?itemName=Marchiore.csvtomarkdown) extension
+  - This is CSVToMarkdown, a simple extension to easly convert CSV files to Markdown table.
+
 ## 0.3.0 - 2021-06-15
 
 - Add [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) extension

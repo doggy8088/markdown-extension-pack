@@ -82,6 +82,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
   - `Shift + Alt + V` : Copy a region of Excel Spreadsheet then use `Shift+Alt+V` to paste into a markdown doc in a table from.
 
+- [CSV to Markdown Table Converter](https://marketplace.visualstudio.com/items?itemName=Marchiore.csvtomarkdown)
+
+   Paste CSV to Markdown doc. Select the corresponding text to CSV. Hit `F1` and select **Convert CSV to Markdown Table** command. Done!
+
 - [Copy Markdown as HTML](https://marketplace.visualstudio.com/items?itemName=jerriepelser.copy-markdown-as-html)
 
   I'll turn markdown into HTML and put it onto Clipboard. No file will be generated. It is very useful that when I writing posts.
