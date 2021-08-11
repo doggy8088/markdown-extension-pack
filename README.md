@@ -54,13 +54,13 @@ This extension pack packages some of the most popular (and some of my favorite) 
     - `Cmd + Shift + [` : Toggle heading (downlevel)
     - `Alt + Shift + F` : Format Document with a Table formatter
 
-- [Markdown Paste Image](https://marketplace.visualstudio.com/items?itemName=onesdev.vscode-paste-image-plus)
+- [Markdown Paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image)
 
   Useful Shortcuts:
 
   - `Ctrl + Alt + V` : Simply copy a image to Clipboard then use `Ctrl+Alt+V` to paste into your doc.
 
-    > The default image path will save to `res/` folder of current doc.
+    > You can paste not only images, but also any Text, HTML, Rich-Text to Markdown.
 
 - [Markdown Image Size](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-image-size)
 
