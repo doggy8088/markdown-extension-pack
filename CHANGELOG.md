@@ -2,7 +2,7 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
-## 0.5.0 - 2021-08-12
+## 0.5.2 - 2021-08-12
 
 - Add [Markdown Paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image) extension
   - A smartly paste for markdown.
