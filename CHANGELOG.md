@@ -2,6 +2,13 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
+## 0.6.0 - 2022-05-07
+
+- Add [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) extension
+- Add [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji) extension
+- Add [Markdown yaml Preamble](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-yaml-preamble) extension
+- Add [Markdown Footnotes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes) extension
+
 ## 0.5.2 - 2021-08-12
 
 - Add [Markdown Paste](https://marketplace.visualstudio.com/items?itemName=telesoho.vscode-markdown-paste-image) extension

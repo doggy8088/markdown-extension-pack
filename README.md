@@ -4,6 +4,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ## Extensions Included
 
+### Linting Tool
+
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
   Markdown linting and style checking for Visual Studio Code. Check [Rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md) for more details.
@@ -34,6 +36,8 @@ This extension pack packages some of the most popular (and some of my favorite) 
   }
   ```
 
+### Editing Tools
+
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
   Useful Shortcuts:
@@ -62,6 +66,22 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
     > You can paste not only images, but also any Text, HTML, Rich-Text to Markdown.
 
+- [Excel to Markdown table](https://marketplace.visualstudio.com/items?itemName=csholmq.excel-to-markdown-table)
+
+  Useful Shortcuts:
+
+  - `Shift + Alt + V` : Copy a region of Excel Spreadsheet then use `Shift+Alt+V` to paste into a markdown doc in a table from.
+
+- [CSV to Markdown Table Converter](https://marketplace.visualstudio.com/items?itemName=Marchiore.csvtomarkdown)
+
+   Paste CSV to Markdown doc. Select the corresponding text to CSV. Hit `F1` and select **Convert CSV to Markdown Table** command. Done!
+
+### Markdown Preview enhancements
+
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+
+  Changes VS Code's built-in markdown preview to match GitHub's styling.
+
 - [Markdown Image Size](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-image-size)
 
   Adds `![](IMAGEURL =100x200)` image size syntax support to VS Code's built-in Markdown preview.
@@ -76,15 +96,19 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
   > Azure DevOps's Wiki page [support Mermaid diagram](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-markdown-guidance?view=azure-devops&WT.mc_id=DT-MVP-4015686#add-mermaid-diagrams-to-a-wiki-page) syntax.
 
-- [Excel to Markdown table](https://marketplace.visualstudio.com/items?itemName=csholmq.excel-to-markdown-table)
+- [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
 
-  Useful Shortcuts:
+  Adds [:emoji:](https://www.webpagefx.com/tools/emoji-cheat-sheet/) syntax support to VS Code's built-in Markdown preview.
 
-  - `Shift + Alt + V` : Copy a region of Excel Spreadsheet then use `Shift+Alt+V` to paste into a markdown doc in a table from.
+- [Markdown yaml Preamble](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-yaml-preamble)
 
-- [CSV to Markdown Table Converter](https://marketplace.visualstudio.com/items?itemName=Marchiore.csvtomarkdown)
+  Renders YAML front matter as a table in the built-in markdown preview.
 
-   Paste CSV to Markdown doc. Select the corresponding text to CSV. Hit `F1` and select **Convert CSV to Markdown Table** command. Done!
+- [Markdown Footnotes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes)
+
+  Adds `[^1]` footnote syntax support to VS Code's built-in Markdown preview
+
+### Misc. Utilities
 
 - [Copy Markdown as HTML](https://marketplace.visualstudio.com/items?itemName=jerriepelser.copy-markdown-as-html)
 
@@ -156,5 +180,9 @@ You need to install the following extensions manually if you need:
 - [Medium to Markdown](https://marketplace.visualstudio.com/items?itemName=moshfeu.vscode-medium-to-markdown)
 
   Import your Medium posts into Markdown in your editor.
+
+### Useful links
+
+- [Markdown and Visual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
 
 **Enjoy!**
