@@ -1,0 +1,11 @@
+{
+    "fenced code blocks": {
+        "prefix": "```",
+        "body": [
+            "```${1|cs,ps1,bat,sh,txt,ts,js,json,yaml,ini,html,xml,sql,nginx,dockerfile,vba,ahk|}",
+            "$0",
+            "```"
+        ],
+        "description": "fenced code blocks"
+    }
+}

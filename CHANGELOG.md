@@ -2,6 +2,11 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
+## 0.7.0 - 2022-10-24
+
+- Add Markdown snippets
+  - ` ``` `: fenced code blocks
+
 ## 0.6.0 - 2022-05-07
 
 - Add [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) extension

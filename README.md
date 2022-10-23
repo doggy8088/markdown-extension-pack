@@ -181,6 +181,12 @@ You need to install the following extensions manually if you need:
 
   Import your Medium posts into Markdown in your editor.
 
+### Code Snippets
+
+| Prefix  | Description        |
+| ------- | ------------------ |
+| ` ``` ` | fenced code blocks |
+
 ### Useful links
 
 - [Markdown and Visual Studio Code](https://code.visualstudio.com/Docs/languages/markdown)
