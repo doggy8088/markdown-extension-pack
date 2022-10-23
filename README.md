@@ -183,9 +183,10 @@ You need to install the following extensions manually if you need:
 
 ### Code Snippets
 
-| Prefix  | Description        |
-| ------- | ------------------ |
-| ` ``` ` | fenced code blocks |
+| Prefix    | Description                         |
+| --------- | ----------------------------------- |
+| ` ``` `   | fenced code blocks                  |
+| `details` | Use `<details>` element in Markdown |
 
 ### Useful links
 

@@ -2,10 +2,11 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
-## 0.7.0 - 2022-10-24
+## 0.7.1 - 2022-10-24
 
 - Add Markdown snippets
   - ` ``` `: fenced code blocks
+  - `details`: Use `<details>` element in Markdown
 
 ## 0.6.0 - 2022-05-07
 

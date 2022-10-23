@@ -7,5 +7,17 @@
             "```"
         ],
         "description": "fenced code blocks"
+    },
+    "Use <details> element in Markdown": {
+        "prefix": "details",
+        "body": [
+            "<details>",
+            "    <summary>${1:Click here to show more}</summary>",
+            "",
+            "> ${2:Enter Markdown syntax}$0",
+            "",
+            "</details>"
+        ],
+        "description": "Use <details> element in Markdown"
     }
 }
