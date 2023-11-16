@@ -1,20 +1,11 @@
 {
-    "fenced code blocks": {
-        "prefix": "```",
-        "body": [
-            "```${1|cs,ps1,bat,sh,txt,ts,js,json,yaml,ini,html,xml,sql,nginx,dockerfile,vba,ahk|}",
-            "$0",
-            "```"
-        ],
-        "description": "fenced code blocks"
-    },
     "Use <details> element in Markdown": {
         "prefix": "details",
         "body": [
             "<details>",
             "    <summary>${1:Click here to show more}</summary>",
             "",
-            "> ${2:Enter Markdown syntax}$0",
+            "${2:Enter Markdown syntax}$0",
             "",
             "</details>"
         ],

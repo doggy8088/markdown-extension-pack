@@ -110,6 +110,10 @@ This extension pack packages some of the most popular (and some of my favorite) 
 
 ### Misc. Utilities
 
+- [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
+
+  Reveals some characters that can be harmful because they are invisible or looking like legitimate ones.
+
 - [Copy Markdown as HTML](https://marketplace.visualstudio.com/items?itemName=jerriepelser.copy-markdown-as-html)
 
   I'll turn markdown into HTML and put it onto Clipboard. No file will be generated. It is very useful that when I writing posts.

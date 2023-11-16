@@ -2,6 +2,11 @@
 
 All notable changes to the "Markdown Extension Pack" will be documented in this file.
 
+## 0.8.0 - 2023-11-16
+
+- Add [Gremlins tracker for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins) extension
+- Remove `fenced code blocks` snippet because there is a built-in snippet for this.
+
 ## 0.7.1 - 2022-10-24
 
 - Add Markdown snippets
